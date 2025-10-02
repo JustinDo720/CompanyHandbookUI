@@ -1,38 +1,46 @@
-.App {
-  text-align: center;
+.ch-background-color {
+    background-color: #1E293B;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ch-primary-btn {
+    background-color: #2563EB !important;
+}
+.ch-primary-btn:hover {
+    background-color: #10B981 !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ch-jumbo {
+    background-color: #374151;
+    padding: 4rem 2rem;
+    color: #F8FAFC;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.ch-container {
   display: flex;
+  padding-bottom:15px;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  min-height: 100vh; /* Ensure the container spans the full height of the viewport */
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.ch-footer {
+    background-color: #1E293B;
+    color: #F9FAFB;
+    padding: "1rem 0";
+    flex-shrink: 0; /* Footer stays at the bottom */
+    position:absolute;
+    left:0;
+    bottom:0;
+    right:0;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.custom-muted-link {
+color: rgba(255, 255, 255, 0.55);
+text-decoration: none;
+}
+
+.custom-muted-link:hover,
+.custom-muted-link:focus {
+color: rgba(255, 255, 255, 0.75);
 }
