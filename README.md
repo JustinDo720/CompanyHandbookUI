@@ -76,3 +76,14 @@ export default function App(){
 1) Be sure your app container has a min height based on view port 
 2) App footer has to be absolute to stay at the bottom while being scroll-friendly 
    1) if problem just be sure to change it to `postition: fixed` with some `z-index`
+
+## 10/03 
+- Design Conflict 
+  - Are we allowing all users to chat with every single Company to learn about them?
+  - Are we focused on employees and letting them look chat with their own company?
+  - Hybrid 
+    - Company and User exists at once where **companies** would lock their handbooks based on their registed users ONLY 
+- Will we add a "leave a message feature"
+- Add Pagination to Companies 
+- [x] Built Company Table + Search Form 
+- Considering a Modal Approach for Chatting
